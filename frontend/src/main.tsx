@@ -10,13 +10,15 @@ import Legs from "./pages/Legs.tsx";
 import Arms from "./pages/Arms.tsx";
 
 const router = createBrowserRouter([
-    { path: "/powerplan", element: <App /> },
-    { path: "/powerplan/push", element: <Push /> },
-    { path: "/powerplan/pull", element: <Pull /> },
-    { path: "/powerplan/legs", element: <Legs /> },
-    { path: "/powerplan/arms", element: <Arms /> },
+    { path: "/", element: <App /> },
+    { path: "/push", element: <Push /> },
+    { path: "/pull", element: <Pull /> },
+    { path: "/legs", element: <Legs /> },
+    { path: "/arms", element: <Arms /> },
     { path: "*", element: <NotFoundPage /> },
-]);
+], {
+    basename: "/PowerPlan",
+});
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
