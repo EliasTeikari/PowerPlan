@@ -25,7 +25,7 @@ function App() {
                     display: 'flex',
                     flexDirection: 'column'
                 }}>
-                    <h1 className="text-white p-3 d-flex justify-content-center">
+                    <h1 className="text-white p-5 fw-bold d-flex justify-content-center display-1">
                         {" "}
                         WORKOUTS
                     </h1>
@@ -33,28 +33,56 @@ function App() {
                         <Link
                             to="/push"
                             type="button"
-                            className="btn btn-light btn-lg p-5 mb-3"
+                            className="btn btn-lg p-5 mb-3 fs-2 fw-bold text-white"
+                            style={{
+                                backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                backdropFilter: 'blur(10px)',
+                                WebkitBackdropFilter: 'blur(10px)',
+                                border: '1px solid rgba(255, 255, 255, 0.2)',
+                                borderRadius: '12px'
+                            }}
                         >
                             PUSH
                         </Link>
                         <Link
                             to="/pull"
                             type="button"
-                            className="btn btn-light btn-lg p-5 mb-3"
+                            className="btn btn-lg p-5 mb-3 fs-2 fw-bold text-white"
+                            style={{
+                                backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                backdropFilter: 'blur(10px)',
+                                WebkitBackdropFilter: 'blur(10px)',
+                                border: '1px solid rgba(255, 255, 255, 0.2)',
+                                borderRadius: '12px'
+                            }}
                         >
                             PULL
                         </Link>
                         <Link
                             to="/legs"
                             type="button"
-                            className="btn btn-light btn-lg p-5 mb-3"
+                            className="btn btn-lg p-5 mb-3 fs-2 fw-bold text-white"
+                            style={{
+                                backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                backdropFilter: 'blur(10px)',
+                                WebkitBackdropFilter: 'blur(10px)',
+                                border: '1px solid rgba(255, 255, 255, 0.2)',
+                                borderRadius: '12px'
+                            }}
                         >
                             LEGS
                         </Link>
                         <Link
                             to="/arms"
                             type="button"
-                            className="btn btn-light btn-lg p-5 mb-3"
+                            className="btn btn-lg p-5 mb-3 fs-2 fw-bold text-white"
+                            style={{
+                                backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                backdropFilter: 'blur(10px)',
+                                WebkitBackdropFilter: 'blur(10px)',
+                                border: '1px solid rgba(255, 255, 255, 0.2)',
+                                borderRadius: '12px'
+                            }}
                         >
                             ARMS
                         </Link>
