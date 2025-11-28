@@ -1,10 +1,19 @@
-import Navbar from "./pages/navbar";
-
 function App() {
     return (
-        <div>
-            <Navbar />
-        </div>
+        <>
+            <button type="button" class="btn btn-light">
+                Light
+            </button>
+            <button type="button" class="btn btn-light">
+                Light
+            </button>
+            <button type="button" class="btn btn-light">
+                Light
+            </button>
+            <button type="button" class="btn btn-light">
+                Light
+            </button>
+        </>
     );
 }
 

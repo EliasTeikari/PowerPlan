@@ -1,5 +1,5 @@
 function ListGroup() {
-    const items = [];
+    const items: any[] = [];
 
     return (
         <>
