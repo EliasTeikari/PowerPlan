@@ -4,7 +4,9 @@ import Dither from "./components/Dither";
 function App() {
     return (
         <>
-            <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+            <div
+                style={{ width: "100%", height: "100vh", position: "relative" }}
+            >
                 <Dither
                     waveColor={[0.5, 0.5, 0.5]}
                     disableAnimation={false}
@@ -15,16 +17,18 @@ function App() {
                     waveFrequency={3}
                     waveSpeed={0.02}
                 />
-                <div style={{ 
-                    position: 'absolute', 
-                    top: 0, 
-                    left: 0, 
-                    width: '100%', 
-                    height: '100%', 
-                    zIndex: 1,
-                    display: 'flex',
-                    flexDirection: 'column'
-                }}>
+                <div
+                    style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                        zIndex: 1,
+                        display: "flex",
+                        flexDirection: "column",
+                    }}
+                >
                     <h1 className="text-white p-5 fw-bold d-flex justify-content-center display-1">
                         {" "}
                         WORKOUTS
@@ -35,11 +39,11 @@ function App() {
                             type="button"
                             className="btn btn-lg p-5 mb-3 fs-2 fw-bold text-white"
                             style={{
-                                backgroundColor: 'rgba(0, 0, 0, 0.3)',
-                                backdropFilter: 'blur(10px)',
-                                WebkitBackdropFilter: 'blur(10px)',
-                                border: '1px solid rgba(255, 255, 255, 0.2)',
-                                borderRadius: '12px'
+                                backgroundColor: "rgba(0, 0, 0, 0.3)",
+                                backdropFilter: "blur(10px)",
+                                WebkitBackdropFilter: "blur(10px)",
+                                border: "1px solid rgba(255, 255, 255, 0.2)",
+                                borderRadius: "12px",
                             }}
                         >
                             PUSH
@@ -49,11 +53,11 @@ function App() {
                             type="button"
                             className="btn btn-lg p-5 mb-3 fs-2 fw-bold text-white"
                             style={{
-                                backgroundColor: 'rgba(0, 0, 0, 0.3)',
-                                backdropFilter: 'blur(10px)',
-                                WebkitBackdropFilter: 'blur(10px)',
-                                border: '1px solid rgba(255, 255, 255, 0.2)',
-                                borderRadius: '12px'
+                                backgroundColor: "rgba(0, 0, 0, 0.3)",
+                                backdropFilter: "blur(10px)",
+                                WebkitBackdropFilter: "blur(10px)",
+                                border: "1px solid rgba(255, 255, 255, 0.2)",
+                                borderRadius: "12px",
                             }}
                         >
                             PULL
@@ -63,11 +67,11 @@ function App() {
                             type="button"
                             className="btn btn-lg p-5 mb-3 fs-2 fw-bold text-white"
                             style={{
-                                backgroundColor: 'rgba(0, 0, 0, 0.3)',
-                                backdropFilter: 'blur(10px)',
-                                WebkitBackdropFilter: 'blur(10px)',
-                                border: '1px solid rgba(255, 255, 255, 0.2)',
-                                borderRadius: '12px'
+                                backgroundColor: "rgba(0, 0, 0, 0.3)",
+                                backdropFilter: "blur(10px)",
+                                WebkitBackdropFilter: "blur(10px)",
+                                border: "1px solid rgba(255, 255, 255, 0.2)",
+                                borderRadius: "12px",
                             }}
                         >
                             LEGS
@@ -77,11 +81,11 @@ function App() {
                             type="button"
                             className="btn btn-lg p-5 mb-3 fs-2 fw-bold text-white"
                             style={{
-                                backgroundColor: 'rgba(0, 0, 0, 0.3)',
-                                backdropFilter: 'blur(10px)',
-                                WebkitBackdropFilter: 'blur(10px)',
-                                border: '1px solid rgba(255, 255, 255, 0.2)',
-                                borderRadius: '12px'
+                                backgroundColor: "rgba(0, 0, 0, 0.3)",
+                                backdropFilter: "blur(10px)",
+                                WebkitBackdropFilter: "blur(10px)",
+                                border: "1px solid rgba(255, 255, 255, 0.2)",
+                                borderRadius: "12px",
                             }}
                         >
                             ARMS
