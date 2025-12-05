@@ -88,7 +88,7 @@ function App() {
                                 borderRadius: "12px",
                             }}
                         >
-                            ARMS
+                            ARMS something different
                         </Link>
                     </div>
                 </div>
